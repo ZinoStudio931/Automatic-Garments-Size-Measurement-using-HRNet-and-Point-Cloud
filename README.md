@@ -1,11 +1,11 @@
 
-# HRNet for Fashion Landmark Estimation
+# Automatic Size Measurement of Garments Using Computer Vision Deep Learning Models and Point Cloud Data
 (Modified from [deep-high-resolution-net.pytorch](https://github.com/leoxiaobin/deep-high-resolution-net.pytorch))
 
 ## Introduction
 This code applies the HRNet ([*Deep High-Resolution Representation Learning for Human Pose Estimation*](https://arxiv.org/abs/1902.09212)) onto fashion landmark estimation task using the [*DeepFashion2*](https://github.com/switchablenorms/DeepFashion2) dataset. HRNet **maintains high-resolution representations** throughout the forward path. As a result, the predicted keypoint heatmap is potentially more accurate and spatially more precise.
 
-![Illustrating the architecture of the proposed HRNet](/figures/fashion-landmark-estimation.png)
+![Sample results of Automatic Size Measurements](/figs/sizing-results-samples.png)
 
 Please note that every image in *DeepFashion2* contains multiple fashion items, while our model assumes that there exists only one item in each image. Therefore, what we feed into the HRNet is not the original image but the cropped ones provided by a detector. In experiments, one can either use the ground truth bounding box annotation to generate the input data or use the output of a detecter (you can try [this](https://github.com/ShenhanQian/KGDet) clothing detector).
 
@@ -21,7 +21,7 @@ We won **the third place** in the "DeepFashion2 Challenge 2020 - Track 1 Clothes
 | pose_hrnet | GT      |0.702 | 0.956 | 0.801 | 0.579 | 0.703 | 0.740 | 0.965 | 0.827 | 0.592 | 0.741 |
 
 ## Quick start
-### Installation
+### Preparation
 1. Install pytorch >= v1.2 following [official instruction](https://pytorch.org/).
    **Note that if you use pytorch's version < v1.0.0, you should follow the instruction at <https://github.com/Microsoft/human-pose-estimation.pytorch> to disable cudnn's implementations of BatchNorm layer. We encourage you to use higher pytorch's version(>=v1.0.0)**
 2. Clone this repo, and we'll call the directory that you cloned as `${POSE_ROOT}`.
@@ -34,31 +34,38 @@ We won **the third place** in the "DeepFashion2 Challenge 2020 - Track 1 Clothes
    cd ${POSE_ROOT}/lib
    make
    ```
-6. Init output(training model output directory) and log(tensorboard log directory) directory:
+5. Create following directories:
 
    ```
-   mkdir output 
+   mkdir data
+   mkdir models
    mkdir log
+   mkdir output 
    ```
 
-   Your directory tree should look like this:
+   After all processes, following sub-directories should be prepared:
 
    ```
    ${POSE_ROOT}
-   |-- lib
-   |-- tools 
-   |-- experiments
-   |-- models
    |-- data
+   |-- experiments
+   |-- figs
+   |-- lib
    |-- log
+   |-- models
    |-- output
+   |-- tools 
    |-- README.md
    `-- requirements.txt
    ```
 
-7. Download pretrained models from our [Onedrive Cloud Storage](#OneDrive-Cloud-Storage)
+### Download the Point Detector and Dataset
 
-### Data preparation
+#### 1) Prepare the Sizing Point Detector
+1. Copy the Point Detector under `${POSE_ROOT}/models`. You can get a download link to get the Detector files, upon request by the author's email<seo.kim931@gmail.com>.
+2. Download pretrained models from our [Onedrive Cloud Storage](#OneDrive-Cloud-Storage). 
+
+### Model and Test Data preparation
 Our experiments were conducted on [DeepFashion2](https://github.com/switchablenorms/DeepFashion2), clone this repo, and we'll call the directory that you cloned as `${DF2_ROOT}`.
 #### 1) Download the dataset
 Extract the dataset under `${POSE_ROOT}/data`.
