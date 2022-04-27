@@ -80,7 +80,7 @@ This result corresponds to an error of **less than 1 cm at a length of 50 cm**.
 
    ```
     ${POSE_ROOT}
-    |-- data
+    `-- data
         `-- deepfashion2
             `-- validation
                 |-- image                           (330 RGB images in total)
