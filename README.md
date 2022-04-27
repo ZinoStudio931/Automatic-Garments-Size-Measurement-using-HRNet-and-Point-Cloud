@@ -20,10 +20,10 @@ You can download the dataset in our official homepage [HifiAI](http://www.hifiai
 <p align="center"><img src="/figs/table1.png" width="60%" height="60%"></p>
 
 * Our work,    
-(Modified from [deep-high-resolution-net.pytorch](https://github.com/leoxiaobin/deep-high-resolution-net.pytorch))
-(Training dataset from [DeepFashion2 Dataset](https://github.com/switchablenorms/DeepFashion2))
-(inspired by [HRNet for Fashion Landmark Estimation](https://github.com/svip-lab/HRNet-for-Fashion-Landmark-Estimation.PyTorch))
-(inspired by [Aggregation and Finetuning for Clothes Landmark Detection](https://github.com/lzhbrian/deepfashion2-kps-agg-finetune))
+(Modified from [deep-high-resolution-net.pytorch](https://github.com/leoxiaobin/deep-high-resolution-net.pytorch))   
+(Training dataset from [DeepFashion2 Dataset](https://github.com/switchablenorms/DeepFashion2))   
+(inspired by [HRNet for Fashion Landmark Estimation](https://github.com/svip-lab/HRNet-for-Fashion-Landmark-Estimation.PyTorch))   
+(inspired by [Aggregation and Finetuning for Clothes Landmark Detection](https://github.com/lzhbrian/deepfashion2-kps-agg-finetune))   
 
 ## Main Results
 ### Landmark Estimation Performance on DeepFashion2 Test set
