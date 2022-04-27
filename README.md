@@ -1,21 +1,25 @@
 
 # Automatic Size Measurement of Garments Using Computer Vision Deep Learning Models and Point Cloud Data
 Welcome to the Repository for **Automatic Garment Size Measurement models**
+
+* Sample results of Automatic Size Measurements   
 ![Sample results of Automatic Size Measurements](/figs/sizing-results-samples.png)
 
 ## Introduction
-We devised a novel method for measuring clothes size with a mobile device with a LiDAR and camera like Ipad pro.
+We devised a **novel method for measuring clothes size with a mobile device with a LiDAR and camera** like Ipad pro.
 All you have to do is lay the clothes you want to measure on a flat surface, and then simply take a single capture of the clothes with your mobile device. (We submitted an article that introduces our method in detail to a journal and is currently under review.)
-![Coordinates mapping](/figs/mapping.png)
+<!-- ![Coordinates mapping](/figs/mapping.png){: width="40" height="40"} -->
+<center><img src="/figs/mapping.png" width="40%" height="40%"></center>
 
 In this repo, you can demonstrate the process of finding the size with the test dataset.
 The test dataset consists of 330 sets of (image, depth map and point clouds), as shown in table below. 
 You can download the dataset in our official homepage [HifiAI](http://www.hifiai.pe.kr/new/5/) or [Onedrive storage](https://drive.google.com/drive/folders/1ePJE7KybnQlHRa-4QxiX-jPfpIYKf_Oa?usp=sharing) 
 (Point detector(: pretrained model) is available upon request (temporarily, until the article is in reviewing). Please, fill free to email the author: <seo.kim931@gmail.com>)
 
-![Test datasets](/figs/table1.png)
+<!-- ![Test datasets](/figs/table1.png) -->
+<center><img src="/figs/table1.png" width="35%" height="35%"></center>
 
-* Our work, 
+* Our work,    
 (Modified from [deep-high-resolution-net.pytorch](https://github.com/leoxiaobin/deep-high-resolution-net.pytorch))
 (Training dataset from [DeepFashion2 Dataset](https://github.com/switchablenorms/DeepFashion2))
 (inspired by [HRNet for Fashion Landmark Estimation](https://github.com/svip-lab/HRNet-for-Fashion-Landmark-Estimation.PyTorch))
