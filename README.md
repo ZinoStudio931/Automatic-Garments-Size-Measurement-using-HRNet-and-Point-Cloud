@@ -1,6 +1,6 @@
 
 # Automatic Size Measurement of Garments Using Computer Vision Deep Learning Models and Point Cloud Data
-Welcome to the Repository for **Automatic Garment Size Measurement models**(for convenience, hereafter, `**AutoSizer**`)
+Welcome to the Repository for **Automatic Garment Size Measurement models**
 ![Sample results of Automatic Size Measurements](/figs/sizing-results-samples.png)
 
 ## Introduction
