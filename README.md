@@ -4,7 +4,7 @@ Welcome to the Repository for **Automatic Garment Size Measurement models**
 
 <!-- ![Sample results of Automatic Size Measurements](/figs/sizing-results-samples.png) -->
 <p align="center">
-   <img src="/figs/sizing-results-samples.png" width="100%" height="100%">
+   <img src="/figs/sizing-results-samples.png" width="100%" height="100%">    
    Sample results of Automatic Size Measurements
 </p>
 
@@ -14,8 +14,8 @@ We devised a **novel method for measuring clothes size with a mobile device with
 All you have to do is lay the clothes you want to measure on a flat surface, and then simply take a single capture of the clothes with your mobile device. (We submitted an article that introduces our method in detail to a journal and is currently under review.)
 <!-- ![Coordinates mapping](/figs/mapping.png){: width="40" height="40"} -->
 <p align="center">
-   <img src="/figs/mapping.png" width="60%" height="60%">
-   Mapping Image & Depth map & Point cloud 
+   <img src="/figs/mapping.png" width="60%" height="60%">    
+   Mapping Image & Depth map & Point cloud   
 </p>
 
 In this repo, you can demonstrate the process of finding the size with the test dataset.
@@ -25,7 +25,7 @@ You can download the dataset in our official homepage [HifiAI](http://www.hifiai
 
 <!-- ![Test datasets](/figs/table1.png) -->
 <p align="center">
-   <img src="/figs/table1.png" width="60%" height="60%">
+   <img src="/figs/table1.png" width="60%" height="60%">   
    Description of garments in the dataset
 </p>
 
