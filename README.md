@@ -16,7 +16,7 @@ All you have to do is lay the clothes you want to measure on a flat surface, and
 <p align="center">
    <img src="/figs/mapping.png" width="60%" height="60%">    
 </p>
-<p>
+<p align="center">
    <em>Mapping Image & Depth map & Point cloud</em>
 </p>
 
@@ -29,7 +29,7 @@ You can download the dataset in our official homepage [HifiAI](http://www.hifiai
 <p align="center">
    <img src="/figs/table1.png" width="60%" height="60%">   
 </p>
-<p>
+<p align="center">
    <em>Description of garments in the dataset</em>
 </p>
 
