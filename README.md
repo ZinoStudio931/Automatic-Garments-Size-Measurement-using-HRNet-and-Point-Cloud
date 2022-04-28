@@ -45,9 +45,11 @@ This result corresponds to an error of **less than 1 cm at a length of 50 cm**.
    cd ${POSE_ROOT}/lib
    make
    ```
-5. Create following directories:
+5. Create following directories at `${POSE_ROOT}` :
 
    ```
+   cd .. 
+
    mkdir data
    mkdir models
    mkdir log
@@ -105,7 +107,7 @@ This result corresponds to an error of **less than 1 cm at a length of 50 cm**.
     ```
     Note that the `deepfashion2_api` is modified from the `cocoapi` without changing the package name. Therefore, conflicts occur if you try to install this package when you have installed the original `cocoapi` in your computer. We provide two feasible solutions: 1) run our code in a `virtualenv` 2) use the `deepfashion2_api` as a local pacakge. Also note that `deepfashion2_api` is different with `cocoapi` mainly in the number of classes and the values of standard variations for keypoints.
 
-### Training and Testing
+### Testing
 
 Note that the `GPUS` parameter in the `yaml` config file is deprecated. To select GPUs, use the environment varaible:
 
@@ -113,7 +115,7 @@ Note that the `GPUS` parameter in the `yaml` config file is deprecated. To selec
  export CUDA_VISIBLE_DEVICES=1
 ```
 
-**Testing** on DeepFashion2 dataset with **BBox from ground truth** using trained models:
+**Testing sizing point detector** on test dataset using pretrained model:
 ```bash
 python tools/test.py \
     --cfg experiments/deepfashion2/hrnet/w48_384x288_adam_lr1e-3.yaml \
@@ -121,8 +123,8 @@ python tools/test.py \
     TEST.USE_GT_BBOX True
 ```
 
-### Calculate the size 
-Calculation modules will be released as soon as the article review is done.
+### Calculate the size and visualization 
+Calculation and visualization modules will be released as soon as the article review is done.
 
 ## Discussion
 - The article review is currently in progress. After publication, related files will be provided for testing.
