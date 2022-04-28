@@ -15,7 +15,7 @@ All you have to do is lay the clothes you want to measure on a flat surface, and
 <!-- ![Coordinates mapping](/figs/mapping.png){: width="40" height="40"} -->
 <p align="center">
    <img src="/figs/mapping.png" width="60%" height="60%">    
-   Mapping Image & Depth map & Point cloud   
+   <em>Mapping Image & Depth map & Point cloud</em>
 </p>
 
 In this repo, you can demonstrate the process of finding the size with the test dataset.
@@ -26,7 +26,7 @@ You can download the dataset in our official homepage [HifiAI](http://www.hifiai
 <!-- ![Test datasets](/figs/table1.png) -->
 <p align="center">
    <img src="/figs/table1.png" width="60%" height="60%">   
-   Description of garments in the dataset
+   <em>Description of garments in the dataset</em>
 </p>
 
 * Our work,    
