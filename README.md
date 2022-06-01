@@ -1,6 +1,7 @@
 
 # Automatic Size Measurement of Garments Using Computer Vision Deep Learning Models and Point Cloud Data
-Welcome to the Repository for **Automatic Garment Size Measurement models**
+Welcome to the Repository for **Automatic Garment Size Measurement models**()  
+This repository is for testing published article *Automatic Size Measurement of Garments Using Computer Vision Deep Learning Models and Point Cloud Data*([URL](https://www.mdpi.com/2076-3417/12/10/5286)).
 
 <!-- ![Sample results of Automatic Size Measurements](/figs/sizing-results-samples.png) -->
 <p align="center">
@@ -11,14 +12,15 @@ Welcome to the Repository for **Automatic Garment Size Measurement models**
 
 ## Introduction
 We devised a **novel method for measuring clothes size with a mobile device with a LiDAR and camera** like Ipad pro.
-All you have to do is lay the clothes you want to measure on a flat surface, and then simply take a single capture of the clothes with your mobile device. (We submitted an article that introduces our method in detail to a journal and is currently under review.)
+All you have to do is lay the clothes you want to measure on a flat surface, and then simply take a single capture of the clothes with your mobile device. 
 <!-- ![Coordinates mapping](/figs/mapping.png){: width="40" height="40"} -->
 <p align="center">
-   <img src="/figs/mapping.png" width="60%" height="60%">    
+   <!-- <img src="/figs/mapping.png" width="60%" height="60%">     -->
+   <img src="/figs/model_flow.png" width="100%">    
 </p>
-<p align="center">
+<!-- <p align="center">
    <em>Mapping Image & Depth map & Point cloud</em>
-</p>
+</p> -->
 
 In this repo, you can demonstrate the process of finding the size with the test dataset.
 The test dataset consists of 330 sets of (image, depth map and point clouds), as shown in table below. 
