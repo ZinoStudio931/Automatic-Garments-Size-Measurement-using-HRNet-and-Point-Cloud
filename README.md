@@ -29,7 +29,8 @@ You can download the dataset in our official homepage [HifiAI](http://www.hifiai
 
 <!-- ![Test datasets](/figs/table1.png) -->
 <p align="center">
-   <img src="/figs/table1.png" width="60%" height="60%">   
+   <img src="/figs/data_description.png" width="80%">   
+   
 </p>
 <p align="center">
    <em>Description of garments in the dataset</em>
@@ -46,6 +47,14 @@ You can download the dataset in our official homepage [HifiAI](http://www.hifiai
 Experiment results showed that the average relative error were **1.59% and 2.08%** in controlled and uncontrolled environments with/without white background, respectively.
 This result corresponds to an error of **less than 1 cm at a length of 50 cm**.
 Considering that manual measurement by humans can have an error of about 2-3 cm or more under normal circumstances, our method shows its capability as a good alternative to manual measurement in the fashion industry.
+
+<p align="center">
+   <img src="/figs/experiments_results.png" width="70%">   
+   
+</p>
+<p align="center">
+   <em>Experimental results. In experiments 1 and 2, the *relative errors* were (a) 1.59% and (b) 2.08%, respectively, lower than the (c) 3.25% of the manual measurement.</em>
+</p>
 
 
 ## Quick start
