@@ -43,9 +43,10 @@ You can download the dataset in our official homepage [HifiAI](http://www.hifiai
 
 ## Main Results
 ### Landmark Estimation Performance on DeepFashion2 Test set
-Experiment results showed that the average relative error was **less than 2%(: 1.59%)**.
+Experiment results showed that the average relative error were **1.59% and 2.08%** in controlled and uncontrolled environments with/without white background, respectively.
 This result corresponds to an error of **less than 1 cm at a length of 50 cm**.
-(Further details can be found our *in-reviewing* article later.)
+Considering that manual measurement by humans can have an error of about 2-3 cm or more under normal circumstances, our method shows its capability as a good alternative to manual measurement in the fashion industry.
+
 
 ## Quick start
 ### Preparation
