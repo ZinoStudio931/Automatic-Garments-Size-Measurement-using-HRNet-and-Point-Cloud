@@ -52,7 +52,7 @@ Considering that manual measurement by humans can have an error of about 2-3 cm 
    <img src="/figs/experiments_results.png" width="80%">   
    
 </p>
-<p align="center">
+<p align="left">
    <em>Experimental results. In experiments 1 and 2, the *relative errors* were (a) 1.59% and (b) 2.08%, respectively, lower than the (c) 3.25% of the manual measurement.</em>
 </p>
 
