@@ -1,6 +1,6 @@
 
 # Automatic Size Measurement of Garments Using Computer Vision Deep Learning Models and Point Cloud Data
-Welcome to the Repository for **Automatic Garment Size Measurement models**()  
+Welcome to the Repository for **Automatic Garment Size Measurement models**  
 This repository is for testing published article *Automatic Size Measurement of Garments Using Computer Vision Deep Learning Models and Point Cloud Data*([URL](https://www.mdpi.com/2076-3417/12/10/5286)).
 
 <!-- ![Sample results of Automatic Size Measurements](/figs/sizing-results-samples.png) -->
@@ -90,10 +90,10 @@ This result corresponds to an error of **less than 1 cm at a length of 50 cm**.
 
 ### Download the Point Detector and Test Dataset
 
-1. Prepare the Sizing Point Detector
+1. Prepare the Sizing Point Detector   
    Place the Point Detector under `${POSE_ROOT}/models`. You can get a download link to get the pretrained models(.pth), upon request by the author's email: <seo.kim931@gmail.com>.
 
-2. Download the Test dataset
+2. Download the Test dataset   
    Download the dataset from the [Onedrive storage](https://drive.google.com/drive/folders/1ePJE7KybnQlHRa-4QxiX-jPfpIYKf_Oa?usp=sharing). Extract the dataset under `${POSE_ROOT}/data` as follow.
 
    ```
@@ -139,9 +139,9 @@ python tools/test.py \
     TEST.USE_GT_BBOX True
 ```
 
-### Calculate the size and visualization 
-Calculation and visualization modules will be released as soon as the article review is done.
+### Calculate and visualize the estimated sizes 
+Calculation and visualization modules will be released soon.
 
 ## Discussion
-- The article review is currently in progress. After publication, related files will be provided for testing.
+- Our article was published on May 23rd. You can find more details in the article.([URL](https://www.mdpi.com/2076-3417/12/10/5286)).
 
