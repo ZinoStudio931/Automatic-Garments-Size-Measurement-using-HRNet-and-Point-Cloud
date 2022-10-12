@@ -25,7 +25,7 @@ All you have to do is lay the clothes you want to measure on a flat surface, and
 In this repo, you can demonstrate the process of finding the size with the test dataset.
 The test dataset consists of 330 sets of (image, depth map and point clouds), as shown in table below. 
 You can download the dataset in our official homepage [HifiAI](http://www.hifiai.pe.kr/new/5/) or [Onedrive storage](https://drive.google.com/drive/folders/1ePJE7KybnQlHRa-4QxiX-jPfpIYKf_Oa?usp=sharing) 
-(Point detector(: pretrained model) is available upon request. Please, fill free to email the author: <seo.kim931@gmail.com>)
+(Point detector(: pretrained model) is available upon request. Please, feel free to email the author: <seo.kim931@gmail.com>)
 
 <!-- ![Test datasets](/figs/table1.png) -->
 <p align="center">
